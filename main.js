@@ -5,7 +5,7 @@ var pointer=0;
 
 
 nonPrimeNumber="Your Birth Date is not a prime number."
-primeNumber="Your Birth Date is not a prime number."
+primeNumber="Your Birth Date is a prime number."
 error="Please enter in the specified format."
 
 btnCheck.addEventListener("click", primeCheckHandler)
