@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,700&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--bg-color);
+}
+
+:root{
+    --primary-color:#312E81;
+    --text-color: white;
+    --bg-color: #C7D2FE
+}
+
+header{
+    display:block;
+    padding: 2rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background-color: #312E81;
+    text-align: center;
+    color: var(--text-color);
+}
+
+section{
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    margin: auto;
+}
+textarea{
+    min-height: 5vh;
+    width: 60%;
+    padding:1.5rem;
+    text-align: center;
+}
+button{
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+footer{
+    display: block;
+    margin: 5rem auto 0rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--text-color);
+    border-radius: 0.5rem;
+}
